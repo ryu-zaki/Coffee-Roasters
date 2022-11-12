@@ -65,6 +65,7 @@ body {
 
 .main-container .create-btn a {
     color: var(--light);
+    font-size: var(--btnTitle);
 }
 
 .main-container .create-btn:hover {
