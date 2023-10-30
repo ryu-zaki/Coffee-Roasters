@@ -37,8 +37,7 @@ const createBtns = document.querySelectorAll('[data-create-plan]');
 
 createBtns.forEach(btn => {
     btn.addEventListener('click', () => {
-        window.location.pathname = "/Create%20your%20plan%20page/index.html";
-        console.log("Clickedd");
+        window.location.pathname = "/Coffee-Roasters/Create%20your%20plan%20page/index.html";
     }) 
 })
 
