@@ -285,6 +285,24 @@ body .tutorial-container .cards-dot {
     font-size: var(--summaryH3);
 }
 
+.create-btn.check {
+    background-color: var(--green);
+    border: none;
+    outline: none;
+    color: var(--light);
+    font-size: var(--btnTitle);
+    padding: 1.3rem 2.1rem;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.create-btn.check a {
+    color: var(--light);
+    font-size: var(--btnTitle);
+}
+
 .order-summary span {
     color: var(--green);
 }
