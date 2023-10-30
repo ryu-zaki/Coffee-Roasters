@@ -289,22 +289,22 @@ body .tutorial-container .cards-dot {
     color: var(--green);
 }
 
-.summary-container .create-btn {
+ .create-btn {
     align-self: flex-end;
     background-color: #bbb;
     cursor: not-allowed;
 }
 
-.summary-container .create-btn:hover {
+.create-btn:hover {
     transform: scale(1);
 }
 
-.summary-container .create-btn.active-createBtn {
+.create-btn.active-createBtn {
     background-color: var(--green);
     cursor: pointer;
 }
 
-.summary-container .create-btn.active-createBtn:hover {
+ .create-btn.active-createBtn:hover {
     transform: scale(1.05);
 }
 
